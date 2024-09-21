@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome page Document</title>
+    <link href="/full.min (1).css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <main class="flex justify-center">
+        <div class="mockup-phone ">
+            <div class="camera"></div>
+            <div class="display">
+                <div class="artboard artboard-demo phone-1 px-2">
+                    <div class="flex gap-2">
+                        <h1 class="text-2xl">Balance: </h1>
+                        <h2 id="balance" class="text-2xl font-semibold">9800</h2>
+                        <span class="text-2xl">Tk</span>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="grid grid-cols-3 gap-1">
+                        <button class="btn btn-active">Add Money</button>
+                        <button class="btn btn-active">Cash Out</button>
+                        <button class="btn btn-active">Transiction</button>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                        <form class="card-body">
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text">Amount</span>
+                                </label>
+                                <input id="amount-input" type="text" placeholder="Enter amount" autocomplete="off"
+                                    class="input input-bordered" required />
+                            </div>
+                            <div class="form-control">
+                                <label class="label">
+                                    <span class="label-text">Pin</span>
+                                </label>
+                                <input id="inputPin" type="password" placeholder="Enter pin"
+                                    class="input input-bordered" required />
+                            </div>
+                            <div class="form-control mt-6">
+                                <button id="btn-cashIn" class="btn btn-primary">Cash in</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+
+
+    </script>
+    <script src="function.js"></script>
+    <script src="features.js"></script>
+</body>
+
+</html>
